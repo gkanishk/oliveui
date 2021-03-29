@@ -1,0 +1,31 @@
+:root{
+    /* Pallets */
+    --blue: #41A8F7;
+    --light-blue:#aad6f7;
+    --white: #fff;
+    --primary-green: #10B981;
+    --dark-green: #4b7a68;
+    --black: #2D3748;
+    --red: #ff622e;
+    --input-border: #a8a7a8;
+    --input-focus-h: 152;
+    --input-focus-s: 50%;
+    --input-focus-l: 42%;
+    --input-focus-h-red: 15;
+    --input-focus-s-red: 70%;
+
+    /* Size */
+    --small: 50px;
+    --med: 100px;
+    --lg: 200px;
+
+    /* Spacing */
+    --space-l: 8px;
+    --space-med: 12px;
+    --space-h: 20px;
+
+    /* Image size */
+    --image-small: 9.375rem;
+    --image-larger: 18.75rem;
+    --image-xlarge: 23.45rem;
+}

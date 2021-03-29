@@ -1,0 +1,87 @@
+[
+    {
+        "type": "Category",
+        "name": "Documentation"
+    },
+    {
+        "type": "Component",
+        "name": "Getting Started",
+        "link": "/docs"
+    },
+    {
+        "type": "Category",
+        "name": "Elements"
+    },
+    {
+        "type": "Component",
+        "name": "Avatar",
+        "link": "/docs/avatar"
+    },
+    {
+        "type": "Component",
+        "name": "Badge",
+        "link": "/docs/badge"
+    },
+    {
+        "type": "Component",
+        "name": "Button",
+        "link": "/docs/button"
+    },
+    {
+        "type": "Component",
+        "name": "Image",
+        "link": "/docs/image"
+    },
+    {
+        "type": "Component",
+        "name": "Input",
+        "link": "/docs/input"
+    },
+    {
+        "type": "Component",
+        "name": "Toast",
+        "link": "/docs/toast"
+    },
+    {
+        "type": "Category",
+        "name": "Components"
+    },
+    {
+        "type": "Component",
+        "name": "Card",
+        "link": "/docs/card"
+    },
+    {
+        "type": "Component",
+        "name": "Modal",
+        "link": "/docs/modal"
+    },
+    {
+        "type": "Component",
+        "name": "List",
+        "link": "/docs/list"
+    },
+    {
+        "type": "Category",
+        "name": "Layouts"
+    },
+    {
+        "type": "Component",
+        "name": "Grid",
+        "link": "/docs/grid"
+    },
+    {
+        "type": "Component",
+        "name": "Flex",
+        "link": "/docs/flex"
+    },
+    {
+        "type": "Category",
+        "name": "Typography"
+    },
+    {
+        "type": "Component",
+        "name": "Text",
+        "link": "/docs/Text"
+    }
+]

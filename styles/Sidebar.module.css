@@ -1,0 +1,37 @@
+.sidebarContainer{
+    padding: 2rem 0px 1rem 80px;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 92vh;
+}
+
+.title{
+    color: #5EC29C;
+    color: #718096;
+    white-space: none;
+    margin:20px 0;
+}
+
+.sidebarContainer a{
+    padding: 7px;
+    margin: 0.2rem 0;
+    /* color: #4b7a68; */
+    text-decoration: none;
+    width: 180px;
+    border-radius: 7px;
+}
+
+.sidebarContainer a:hover,
+.sidebarContainer .selected{
+    background-color: #34D399;
+    /* background-color: #57c7bd; */
+    background-color: var(--primary-green);
+    color: #fff;
+}
+
+@media (max-width:770px){
+    .sidebarContainer {
+        padding: 2rem;
+    }
+}
