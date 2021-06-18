@@ -1,0 +1,254 @@
+@import "./variable.css";
+
+.sm {
+  width: var(--small);
+  height: var(--small);
+}
+
+.md {
+  width: var(--med);
+  height: var(--med);
+}
+
+.lg {
+  width: var(--lg);
+  height: var(--lg);
+}
+
+/* Avatars */
+.avatar img {
+  border-radius: 50%;
+  position: relative;
+  margin: var(--space-l);
+}
+
+/* Badge */
+
+.badge {
+  position: relative;
+  margin: var(--space-med);
+}
+
+.badge[data-badge]:after {
+  content: attr(data-badge);
+  position: absolute;
+  background-color: yellowgreen;
+  transform: translate(-0.07rem, -0.3rem);
+  font-size: 0.7em;
+  color: white;
+  min-width: 0.9rem;
+  height: 0.9rem;
+  text-align: center;
+  line-height: 1;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0 0.1rem #fff;
+  padding: 0.2rem 0.1rem 0.05rem 0.1rem;
+  white-space: nowrap;
+}
+
+.badge[data-badge=""]::after {
+  height: 6px;
+  min-width: 6px;
+  padding: 0;
+  width: 6px;
+  transform: translate(-0.05rem, -0.1rem);
+}
+
+.badge.avatar::after {
+  position: absolute;
+  right: 14.6%;
+  top: 14.6%;
+  transform: translate(50%, -50%);
+  z-index: 100;
+}
+
+.badge.avatar[data-badge=""]::after {
+  transform: translate(-0.06rem, -0.1rem);
+}
+
+/* Button */
+
+.btn,
+.btn-outline:hover {
+  margin: var(--space-med);
+  background: var(--primary-green);
+  border: 2px solid var(--primary-green);
+  padding: 0.3rem 0.4rem;
+  color: white;
+  border-radius: 5px;
+  width: var(--med);
+  outline-color: #8ec2ed;
+}
+
+.btn-primary:hover,
+.btn-outline {
+  background-color: transparent;
+  color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+.btn[varient="danger"] {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.btn[varient="danger"]:hover,
+.btn-outline[varient="danger"] {
+  background-color: transparent;
+  color: tomato;
+}
+
+.btn-outline[varient="danger"]:hover {
+  background-color: tomato;
+  border-color: tomato;
+  color: white;
+}
+
+.btn[varient="blue"] {
+  background-color: var(--blue);
+  border-color: var(--blue);
+}
+
+.btn[varient="blue"]:hover,
+.btn-outline[varient="blue"] {
+  background-color: transparent;
+  color: var(--blue);
+  border-color: var(--blue);
+}
+
+.btn-outline[varient="blue"]:hover {
+  background-color: var(--blue);
+  border-color: var(--blue);
+  color: white;
+}
+
+.btn:focus {
+  outline-offset: 1px;
+}
+
+/* Images */
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img[image-size="sm"] {
+  width: var(--image-small);
+}
+
+.img[image-size="lg"] {
+  width: var(--image-larger);
+}
+
+.img[image-size="xlg"] {
+  width: var(--image-xlarge);
+}
+
+/* Round Images */
+.img-round {
+  border-radius: 50%;
+  margin: var(--space-med);
+}
+
+.img-round[image-size="sm"] {
+  width: var(--image-small);
+  height: var(--image-small);
+}
+
+.img-round[image-size="lg"] {
+  width: var(--image-larger);
+  height: var(--image-larger);
+}
+
+.img-round[image-size="xlg"] {
+  width: var(--image-xlarge);
+  height: var(--image-xlarge);
+}
+
+/* Input */
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  width: var(--image-larger);
+}
+
+.label {
+  margin: 0.5rem 0 0 !important;
+  font-weight: 500;
+}
+
+.input-area {
+  margin: 0.2rem 0 !important;
+  padding: 0.3rem 0.5rem;
+  background-color: #fff;
+  border: 1.5px solid var(--input-border);
+  border-radius: 7px;
+  transition: 180ms box-shadow ease-in-out;
+  width: 100%;
+  max-width: 50rem;
+}
+
+.input-area:focus {
+  border-color: hsl(
+    var(--input-focus-h),
+    var(--input-focus-s),
+    var(--input-focus-l)
+  );
+  box-shadow: 0 0 0 3px
+    hsla(
+      var(--input-focus-h),
+      var(--input-focus-s),
+      calc(var(--input-focus-l) + 40%),
+      0.8
+    );
+  outline: 3px solid transparent;
+}
+
+.has-error {
+  background-color: hsl(
+    var(--input-focus-h-red),
+    var(--input-focus-s),
+    calc(var(--input-focus-l) + 55%)
+  );
+  border-color: var(--red);
+}
+.has-error:focus {
+  border-color: hsl(
+    var(--input-focus-h-red),
+    var(--input-focus-s),
+    var(--input-focus-l)
+  );
+  box-shadow: 0 0 0 3px
+    hsla(
+      var(--input-focus-h-red),
+      var(--input-focus-s-red),
+      calc(var(--input-focus-l) + 40%),
+      0.8
+    );
+}
+
+.is-success {
+  border-color: var(--primary-green);
+}
+
+/* Card */
+
+.card-container{
+  width: 18.5rem;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 0.7rem;
+  box-shadow: 0 0.25rem 1rem rgb(48 55 66 / 15%);
+}
+
+.card-title{
+  padding: 0.8rem;
+  padding-bottom: 0.2rem;
+}
+
+.card-body{
+  padding: 0.8rem;
+}
