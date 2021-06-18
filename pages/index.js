@@ -16,7 +16,7 @@ export default function Home() {
           web interfaces.
         </p>
         <div className="d-flex justify-center">
-          <a href="/styles/main.css" download>
+          <a href="/main.css" download>
             <button className="btn btn-outline home-btn">Download</button>
           </a>
         <Link href="/docs">
