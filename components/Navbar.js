@@ -8,7 +8,7 @@ export function Navbar() {
           <li>
             <Link href="/docs"><button class="btn btn-outline">Docs</button></Link>
           </li>
-          <li>Github</li>
+          <li><a href="https://github.com/gkanishk/oliveui" target="blank">Github</a></li>
         </ul>
       </div>
     </nav>

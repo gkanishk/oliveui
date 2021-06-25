@@ -38,11 +38,6 @@
         "link": "/docs/input"
     },
     {
-        "type": "Component",
-        "name": "Toast",
-        "link": "/docs/toast"
-    },
-    {
         "type": "Category",
         "name": "Components"
     },
@@ -57,18 +52,8 @@
         "link": "/docs/modal"
     },
     {
-        "type": "Component",
-        "name": "List",
-        "link": "/docs/list"
-    },
-    {
         "type": "Category",
         "name": "Layouts"
-    },
-    {
-        "type": "Component",
-        "name": "Grid",
-        "link": "/docs/grid"
     },
     {
         "type": "Component",
@@ -77,11 +62,21 @@
     },
     {
         "type": "Category",
-        "name": "Typography"
+        "name": "Coming Soon"
+    },
+    {
+        "type":"Component",
+        "name":"List",
+        "link": "/docs/list"
     },
     {
         "type": "Component",
         "name": "Text",
         "link": "/docs/Text"
+    },
+    {
+        "type": "Component",
+        "name": "Toast",
+        "link": "/docs/toast"
     }
 ]
