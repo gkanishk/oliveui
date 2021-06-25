@@ -89,6 +89,22 @@ body {
   justify-content: center;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.item-center {
+  align-items: center;
+}
+
+.item-end {
+  align-items: flex-end;
+}
+
+.item-start {
+  align-items: flex-start;
+}
+
 .padding-sm{
   padding: 1rem;
 }
