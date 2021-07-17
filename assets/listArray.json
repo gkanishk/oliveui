@@ -52,31 +52,22 @@
         "link": "/docs/modal"
     },
     {
+        "type": "Component",
+        "name": "Toast",
+        "link": "/docs/toast"
+    },
+    {
         "type": "Category",
         "name": "Layouts"
     },
     {
         "type": "Component",
+        "name": "Typography",
+        "link": "/docs/text"
+    },
+    {
+        "type": "Component",
         "name": "Flex",
         "link": "/docs/flex"
-    },
-    {
-        "type": "Category",
-        "name": "Coming Soon"
-    },
-    {
-        "type":"Component",
-        "name":"List",
-        "link": "/docs/list"
-    },
-    {
-        "type": "Component",
-        "name": "Text",
-        "link": "/docs/Text"
-    },
-    {
-        "type": "Component",
-        "name": "Toast",
-        "link": "/docs/toast"
     }
 ]
