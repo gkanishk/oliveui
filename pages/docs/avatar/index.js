@@ -5,7 +5,7 @@ export default function Avatar() {
   return (
     <>
       <Head>
-        <title>Avatar</title>
+        <title>Olive Ui | Avatar</title>
       </Head>
     <div className="container">
       <h1>Avatar</h1>

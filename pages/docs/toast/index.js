@@ -1,9 +1,14 @@
 import { useState } from "react";
+import Head from "next/head";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
 export default function Toast() {
     const [toastClass, setToastClass] = useState("toast");
     return (
+        <>
+        <Head>
+            <title>Olive Ui | Toast</title>
+        </Head>
         <div className="container">
             <h1>
                 Toast
@@ -106,5 +111,6 @@ const closeToast = () => {
                     </span>
                 </div>
         </div>
+        </>
         )
     }

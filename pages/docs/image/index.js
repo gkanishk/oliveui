@@ -1,7 +1,12 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Head from "next/head";
 export default function Image() {
     return (
+      <>
+      <Head>
+        <title>Olive Ui | Image</title>
+      </Head>
       <div className="container">
         <h1>
           Images
@@ -88,5 +93,6 @@ export default function Image() {
         src="https://i.pravatar.cc/150?img=2" alt="human"/>
         `}</SyntaxHighlighter>
       </div>
+      </>
     )
   }

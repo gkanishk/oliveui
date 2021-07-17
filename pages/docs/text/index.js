@@ -1,9 +1,12 @@
-import { useState } from "react";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Head from "next/head";
 export default function Text() {
-    const [showModal, settShowModal] = useState(false);
     return (
+        <>
+      <Head>
+        <title>Olive Ui | Typography</title>
+      </Head>
         <div className="container">
         <h1>
           Typography:
@@ -45,4 +48,5 @@ export default function Text() {
             `}
         </SyntaxHighlighter>
         </div>
+        </>
         )}

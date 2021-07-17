@@ -1,7 +1,11 @@
+import Head from "next/head";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
 export default function Badge() {
-    return (
+    return (<>
+    <Head>
+      <title>Olive Ui | Badge</title>
+    </Head>
       <div className="container">
         <h1>Badge</h1>
         <p>
@@ -71,5 +75,6 @@ export default function Badge() {
       `}
       </SyntaxHighlighter>
       </div>
+      </>
     )
   }
