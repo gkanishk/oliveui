@@ -17,7 +17,7 @@ export default function Modal() {
                     <h2>
                         Title
                     </h2>
-                    <span className="modal-btn">
+                    <span className="float-btn">
                     &#10005;
                     </span>
                 </div>
@@ -33,7 +33,7 @@ export default function Modal() {
                     <h2>
                         Title
                     </h2>
-                    <span onClick={()=>settShowModal(false)} className="modal-btn">
+                    <span onClick={()=>settShowModal(false)} className="float-btn">
                     &#10005;
                     </span>
                 </div>
@@ -56,7 +56,7 @@ export default function Modal() {
         <h2>
             Title
         </h2>
-        <span onclick="closeModal()" class="modal-btn">
+        <span onclick="closeModal()" class="float-btn">
         &#10005;
         </span>
     </div>

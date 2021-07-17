@@ -59,14 +59,14 @@ export default function Badge() {
         </div>
         <SyntaxHighlighter language="html" style={materialLight}>
         {`
-      <span className="avatar badge" data-badge="">
-      <img className="sm" src="https://i.pravatar.cc/150?img=6" />
+      <span class="avatar badge" data-badge="">
+      <img class="sm" src="https://i.pravatar.cc/150?img=6" />
       </span>
-      <span className="avatar badge" data-badge="2">
-        <img className="sm" src="https://i.pravatar.cc/150?img=6" />
+      <span class="avatar badge" data-badge="2">
+        <img class="sm" src="https://i.pravatar.cc/150?img=6" />
       </span>
-      <span className="avatar badge" data-badge="2">
-        <img className="md" src="https://i.pravatar.cc/150?img=13" />
+      <span class="avatar badge" data-badge="2">
+        <img class="md" src="https://i.pravatar.cc/150?img=13" />
       </span>
       `}
       </SyntaxHighlighter>

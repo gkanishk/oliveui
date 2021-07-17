@@ -7,6 +7,7 @@
   --dark-green: #4b7a68;
   --black: #2D3748;
   --red: #ff622e;
+  --yellow: rgba(255,183,0,.95);
   --input-border: #a8a7a8;
   --input-focus-h: 152;
   --input-focus-s: 50%;
@@ -29,6 +30,8 @@
   --image-larger: 18.75rem;
   --image-xlarge: 23.45rem;
 }
+
+@import "./variable.css";
 
 .sm {
   width: var(--small);
@@ -301,8 +304,9 @@
     padding: 1rem;
 }
 
-.modal-btn{
+.float-btn{
   cursor: pointer;
+  float: right !important;
 }
 
 /* Typography */
@@ -337,4 +341,76 @@
 
 .text-xbold {
   font-weight: 800;
+}
+
+/* Toast */
+
+.float-right {
+  float: right!important;
+}
+
+.toast {
+  background: var(--blue);
+  border: .05rem solid #303742;
+  border-color: var(--blue);
+  border-radius: .1rem;
+  color: #fff;
+  padding: .4rem;
+  min-width: 300px;
+  margin: 4px;
+  visibility: hidden;
+  z-index: 10;
+}
+
+.visible {
+  visibility: inherit;
+}
+
+.toast * {
+  color: #fff;
+}
+
+.toast[varient="success"] {
+  background: var(--primary-green);
+  border: 2px solid var(--primary-green);
+}
+
+.toast[varient="warn"] {
+  background-color: var(--yellow);
+  border-color: var(--yellow);
+}
+
+.toast[varient="danger"] {
+  background-color: tomato;
+  border-color: tomato;
+}
+
+.toast-show {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }

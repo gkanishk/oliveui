@@ -45,32 +45,32 @@ export default function Card() {
         </div>
         <SyntaxHighlighter language="html" style={materialLight}>
         {`
-        <div className="card-container">
-        <div className="card-head">
-          <img className="img" width="100%" src=".." alt=".."/>
+        <div class="card-container">
+        <div class="card-head">
+          <img class="img" width="100%" src=".." alt=".."/>
         </div>
-        <div className="card-title">
+        <div class="card-title">
           <h4>Title</h4>
-          <span className="f-sm col-grey">
+          <span class="f-sm col-grey">
             Software
           </span>
         </div>
-        <div className="card-body">
+        <div class="card-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
         </div>
       </div>
       
-      <div className="card-container">
-      <div className="card-title">
+      <div class="card-container">
+      <div class="card-title">
           <h4>Title</h4>
-          <span className="f-sm col-grey">
+          <span class="f-sm col-grey">
             Software
           </span>
         </div>
-        <div className="card-head">
-          <img className="img" width="100%" src=".." alt=".."/>
+        <div class="card-head">
+          <img class="img" width="100%" src=".." alt=".."/>
         </div>
-        <div className="card-body">
+        <div class="card-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
         </div>
       </div>
@@ -99,21 +99,21 @@ export default function Card() {
         </div>
         <SyntaxHighlighter language="html" style={materialLight}>
         {`
-        <div className="card-container">
-        <div className="card-head">
-          <img className="img" width="100%" src=".." alt=".."/>
+        <div class="card-container">
+        <div class="card-head">
+          <img class="img" width="100%" src=".." alt=".."/>
         </div>
-        <div className="card-title">
+        <div class="card-title">
           <h4>Title</h4>
-          <span className="f-sm col-grey">
+          <span class="f-sm col-grey">
             Software
           </span>
         </div>
-        <div className="card-body">
+        <div class="card-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
         </div>
-        <div className="d-flex justify-end">
-        <button className="btn btn-primary" varient="danger">Dismiss</button>
+        <div class="d-flex justify-end">
+        <button class="btn btn-primary" varient="danger">Dismiss</button>
         </div>
       </div>
         `}</SyntaxHighlighter>
@@ -128,8 +128,8 @@ export default function Card() {
         <SyntaxHighlighter language="html" style={materialLight}>
         {`
         // Text only card
-        <div className="card-container">
-        <div className="card-body">
+        <div class="card-container">
+        <div class="card-body">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec iaculis mauris.
         </div>
         </div>

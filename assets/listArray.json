@@ -52,13 +52,13 @@
         "link": "/docs/modal"
     },
     {
-        "type": "Category",
-        "name": "Layouts"
+        "type": "Component",
+        "name": "Toast",
+        "link": "/docs/toast"
     },
     {
-        "type": "Component",
-        "name": "Flex",
-        "link": "/docs/flex"
+        "type": "Category",
+        "name": "Layouts"
     },
     {
         "type": "Component",
@@ -66,17 +66,8 @@
         "link": "/docs/text"
     },
     {
-        "type": "Category",
-        "name": "Coming Soon"
-    },
-    {
-        "type":"Component",
-        "name":"List",
-        "link": "/docs/list"
-    },
-    {
         "type": "Component",
-        "name": "Toast",
-        "link": "/docs/toast"
+        "name": "Flex",
+        "link": "/docs/flex"
     }
 ]
