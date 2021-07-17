@@ -1,7 +1,12 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Head from "next/head";
 export default function Input() {
     return (
+      <>
+      <Head>
+        <title>Olive Ui | Input</title>
+      </Head>
       <div className="container">
         <h1>
           Input
@@ -54,5 +59,6 @@ export default function Input() {
       name="name" placeholder="username"/>
         `}</SyntaxHighlighter>
       </div>
+      </>
     )
   }

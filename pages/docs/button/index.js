@@ -1,7 +1,12 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Head from "next/head";
 export default function Buttons() {
     return (
+      <>
+    <Head>
+      <title>Olive Ui | Button</title>
+    </Head>
       <div className="container">
         <h1>Button</h1>
         <p>
@@ -40,5 +45,6 @@ export default function Buttons() {
     <button class="btn btn-outline" varient="blue">Blue</button>
         `}</SyntaxHighlighter>
       </div>
+      </>
     )
   }

@@ -43,6 +43,7 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/favicon.png" />
+        <title>Olive UI</title>
       </Head>
       <Navbar />
       {!isHome && (

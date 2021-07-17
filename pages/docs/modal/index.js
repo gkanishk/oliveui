@@ -1,9 +1,14 @@
 import { useState } from "react";
+import Head from "next/head";
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
 export default function Modal() {
     const [showModal, settShowModal] = useState(false);
     return (
+        <>
+      <Head>
+        <title>Olive Ui | Modal</title>
+      </Head>
         <div className="container">
         <h1>
           Modal
@@ -84,5 +89,6 @@ const closeModal = () => {
             `}
         </SyntaxHighlighter>
         </div>
+        </>
     )
 }

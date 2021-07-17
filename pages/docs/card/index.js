@@ -1,7 +1,12 @@
 import { Prism as SyntaxHighlighter } from "react-syntax-highlighter";
 import { materialLight } from "react-syntax-highlighter/dist/cjs/styles/prism";
+import Head from "next/head";
 export default function Card() {
     return (
+      <>
+      <Head>
+        <title>Olive Ui | Card</title>
+      </Head>
       <div className="container">
         <h1>Cards</h1>
         <p>
@@ -135,5 +140,6 @@ export default function Card() {
         </div>
         `}</SyntaxHighlighter>
       </div>
+      </>
     )
   }
