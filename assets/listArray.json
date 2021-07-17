@@ -61,6 +61,11 @@
         "link": "/docs/flex"
     },
     {
+        "type": "Component",
+        "name": "Typography",
+        "link": "/docs/text"
+    },
+    {
         "type": "Category",
         "name": "Coming Soon"
     },
@@ -68,11 +73,6 @@
         "type":"Component",
         "name":"List",
         "link": "/docs/list"
-    },
-    {
-        "type": "Component",
-        "name": "Text",
-        "link": "/docs/Text"
     },
     {
         "type": "Component",

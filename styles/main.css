@@ -274,3 +274,37 @@
 .modal-btn{
   cursor: pointer;
 }
+
+/* Typography */
+
+.text-sm {
+  font-size: small;
+}
+
+.text-md {
+  font-size: medium;
+}
+
+.text-lg {
+  font-size: large;
+}
+
+.text-xl {
+  font-size: x-large;
+}
+
+.text-thin {
+  font-weight: 200;
+}
+
+.text-normal {
+  font-weight: 400;
+}
+
+.text-bold {
+  font-weight: 600;
+}
+
+.text-xbold {
+  font-weight: 800;
+}

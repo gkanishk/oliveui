@@ -8,7 +8,14 @@ export default function Docs() {
         <h3>CSS:</h3>
         <SyntaxHighlighter language="html" style={materialLight}>
         {`
-      <link href="https://cdn.jsdelivr.net/gh/gkanishk/oliveui@dev/styles/main.css" rel="stylesheet">
+  inside html file
+  <link href="https://cdn.jsdelivr.net/gh/gkanishk/oliveui@dev/public/main.css" rel="stylesheet">
+        `}</SyntaxHighlighter>
+
+<SyntaxHighlighter language="css" style={materialLight}>
+        {`
+  inside css file
+  @import url("https://cdn.jsdelivr.net/gh/gkanishk/oliveui@dev/public/main.css");
         `}</SyntaxHighlighter>
       </div>
     )
